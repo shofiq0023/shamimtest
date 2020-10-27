@@ -1,0 +1,70 @@
+@media (max-width: 576px){
+	.navbar{
+		padding: 20px;
+	}
+	.common-heading h2{
+		font-size: 32px;
+	}
+	.common-heading .heading:hover:after{
+		width: 100%;
+	}
+	.header{
+		text-align: center;
+	}
+	.header h2{
+		font-size: 32px;
+	}
+	.header h1{
+		font-size: 42px;
+	}
+	.header h4{
+		font-size: 21px;
+	}
+	.header .btn-custom{
+		margin-bottom: 40px;
+	}
+	.header .header-icon h6{
+		font-size: 80px;
+	}
+
+	.services .service-item:hover{
+		transform: scale(1);
+	}
+
+	.choose .choose-item{
+		margin-bottom: 30px;
+	}
+	.clients .client-content{
+		margin-bottom: 40px;
+	}
+
+	footer .footer-item{
+		margin-bottom: 30px;
+	}
+	footer .other-links{
+		text-align: left!important;
+	}
+}
+@media (max-width: 768px){
+	.navbar{
+		padding: 20px;
+	}
+	.header{
+		text-align: center;
+	}
+	.header .btn-custom{
+		margin-bottom: 40px;
+	}
+	.header .header-icon h6{
+		font-size: 80px;
+	}
+
+	.choose h3{
+		font-size: 21px;
+	}
+}
+@media (max-width: 1024px){
+	.navbar{
+		padding: 20px;
+	}
+}

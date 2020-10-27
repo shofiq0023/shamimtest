@@ -1,0 +1,257 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	outline: 0;
+}
+ul,ol{
+	list-style: none;
+}
+a,a:hover{
+	text-decoration: none;
+}
+img{
+	vertical-align: center;
+}
+h1,h2,h3,h4,h5,h6,p,a,img,ul,ol,li{
+	padding: 0;
+	margin: 0;
+}
+.common-heading .heading{
+	position: relative;
+	display: inline-block;
+	margin: 30px 0 50px;
+}
+.common-heading .heading:after{
+	content: "";
+	position: absolute;
+	height: 3px;
+	width: 80%;
+	background: #64DD17;
+	left: 50%;
+	bottom: -8px;
+	transform: translateX(-50%);
+	transition: all linear .2s;
+}
+.common-heading .heading:hover:after{
+	width: 120%;
+}
+.btn-custom{
+	display: inline-block;
+	font-size: 18px;
+	color: #64DD17!important;
+	margin-top: 10px;
+	padding: 10px 20px;
+	border: 1px solid #fff;
+	border-radius: 30px;
+	transition: all linear .2s;
+	font-weight: 700;
+	position: relative;
+}
+.btn-custom i{
+	margin-left: 10px;
+	transition: margin linear .2s;
+}
+.btn-custom:hover i{
+	margin-left: 20px;
+}
+.btn-custom:hover{
+	color: #000!important;
+	border-color: #64DD17;
+	background: #64DD17;
+}
+
+/*Common CSS*/
+
+
+/*header starts*/
+.header{
+	height: 100vh;
+	background-image: url(../images/header-bg.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	background-color: rgba(0,0,0,.8);
+	background-blend-mode: darken;
+	color: #fff;
+	display: flex;
+	align-items: center;
+}
+.header h1{
+	font-size: 62px;
+}
+.header .header-icon h6{
+	font-size: 100px;
+	transition: color linear .2s;
+}
+.header .header-icon h6:hover{
+	color: #fff!important;
+	text-shadow: 0 0 5px;
+}
+/*header ends*/
+
+/*service section starts*/
+.services{
+	padding: 10px 0 65px;
+}
+.services .service-item{
+	margin: 30px 0 30px;
+	box-shadow: 0 0 8px #343A40;
+	transform: scale(1);
+	transition: all linear .2s;
+}
+.services .service-heading{
+	padding: 10px 0 10px;
+	text-align: center;
+}
+.services .service-price{
+	background: #343A40;
+	color: #fff;
+	text-align: center;
+	padding: 15px 0 20px;
+	transition: all linear .2s;
+}
+.services .service-detail{
+	padding: 30px 0 20px;
+	color: #4C4C4C;
+}
+.services .service-detail ul li{
+	padding: 10px 0 10px;
+}
+.services .service-buy{
+	background: #343A40;
+	padding: 20px 0 20px;
+}
+.services .service-item:hover{
+	transform: scale(1.1);
+}
+.services .service-item:hover .service-price{
+	background: #64DD17;
+	color: #000;
+}
+/*service section ends*/
+
+
+/*choose section starts*/
+.choose{
+	background: #ECECEC;
+	padding: 10px 0 65px;
+}
+.choose .choose-item{
+	padding: 20px 10px;
+	background: #fff;
+	transition: all linear .2s;
+}
+
+.choose .choose-item .choose-icon{
+	color: #343A40;
+	transition: all linear .2s;
+	perspective: 1000;
+}
+.choose .choose-item:hover{
+	transform: translateY(-20px);
+	box-shadow: 0 40px 10px -20px rgba(0,0,0,.2);
+}
+.choose .choose-item:hover .choose-icon{
+	color: #64DD17;
+}
+/*choose section ends*/
+
+/*clients section starts*/
+.clients{
+	padding: 65px 0 65px;
+	background-image: url(../images/clients-bg.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	background-color: rgba(0,0,0,.8);
+	background-blend-mode: darken;
+}
+.clients h4{
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}
+/*clients section ends*/
+
+/*testimonial section starts*/
+.testimonial{
+	padding: 10px 0 65px;
+	background: #ECECEC;
+}
+.testimonial .client-number{
+	padding: 10px 0 30px;
+}
+.testimonial .owl-carousel{
+	padding-top: 30px;
+}
+.testimonial .owl-carousel .owl-nav span{
+	padding: 30px;
+}
+.testimonial .owl-carousel .owl-nav .owl-prev{
+	position: absolute;
+	font-size: 62px;
+	left: -10px;
+	top: 50%;
+	outline: 0;
+	transform: translateY(-50%);
+}
+.testimonial .owl-carousel .owl-nav .owl-next{
+	position: absolute;
+	font-size: 62px;
+	right: -10px;
+	top: 50%;
+	outline: 0;
+	transform: translateY(-50%);
+}
+/*testimonial section ends*/
+
+
+/*footer starts*/
+footer{
+	padding: 10px 0 65px;
+	color: #fff;
+	background: #000;
+}
+footer .heading:after{
+	height: 2px!important;
+}
+footer a{
+	text-decoration: none;
+	color: #fff;
+	transition: all linear .2s;
+}
+footer a:hover{
+	color: #64DD17;
+}
+footer .social-icon li a{
+	padding: 0px 20px 20px 20px;
+	font-size: 31px;
+	display: inline-block;
+}
+/*footer ends*/
+.copy{
+	background: #000;
+	color: #fff;
+}
+
+/*usa-survey section starts*/
+.usa-survey{
+	padding: 65px 0 65px;
+	background-image: url(../images/usa-survey-bd.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
+/*usa-survey section ends*/
+
+/*ip section starts*/
+.ip{
+	padding: 65px 0 65px;
+}
+/*ip section ends*/
+
+/*number-verify section starts*/
+.number-verify{
+	padding: 65px 0px 65px;
+}
+/*number-verify section ends*/
